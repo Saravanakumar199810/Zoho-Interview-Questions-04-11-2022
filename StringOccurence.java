@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class StringAccurence {
+public class StringOccurence {
 
 	public static void main(String[] args) {
 		Map<Character, Integer> string1 = new HashMap<>();
