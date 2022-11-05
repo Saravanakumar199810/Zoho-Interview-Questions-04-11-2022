@@ -8,7 +8,7 @@ public class SemiSpiralPattern {
 		//Scanner sc = new Scanner(System.in);
 		int number = 6; //sc.nextInt();
 		int a[][] = new int[number][number];
-		double num = (number / 2.0) + (1.0 / 2.0);
+		double num = (number / 2.0) + (0.5);
 		int num1 = (int) (number * num);
 		int num2 = number + 1, i, j;
 		int r1 = 0, r2 = number - 1, c1 = 0, c2 = number - 1;
